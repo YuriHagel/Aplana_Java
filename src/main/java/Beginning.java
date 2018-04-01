@@ -1,7 +1,8 @@
 import  Arrays.ArrayString;
 import Arrays.Swap;
 import Box.HolidayGift;
-import Calculator.Calculator;
+
+import Calculator.OOP;
 
 import java.util.Scanner;
 
@@ -20,7 +21,7 @@ public class Beginning {
 
         int task = in.nextInt();
         if (task == 1) {
-            Calculator.OOP.oop();
+            OOP.oop();
         } else if (task == 2) {
             ArrayString.outputMaxLengthElementInArray();
 

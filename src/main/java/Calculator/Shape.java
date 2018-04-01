@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
 
 
 
-public class Shape extends Calculator {
+public class Shape extends Calc {
     public Shape() {
         num1 = getDouble();
         num2 = getDouble();
