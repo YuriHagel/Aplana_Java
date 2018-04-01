@@ -20,7 +20,7 @@ public class Beginning {
 
         int task = in.nextInt();
         if (task == 1) {
-            Calculator.calc();
+            Calculator.OOP.oop();
         } else if (task == 2) {
             ArrayString.outputMaxLengthElementInArray();
 
