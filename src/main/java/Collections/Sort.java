@@ -5,7 +5,7 @@ import java.util.NavigableMap;
 import java.util.TreeMap;
 
 public class Sort {
-    public static void main(String[] args) throws Exception {
+    public static void Homework6() {
         FileInputStream file = new FileInputStream();
         String text = "";
         while (file.available() > 0) {

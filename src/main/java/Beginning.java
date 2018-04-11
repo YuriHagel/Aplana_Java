@@ -4,6 +4,7 @@ import Box.HolidayGift;
 
 import Calculator.OOP;
 
+import java.util.Collections;
 import java.util.Scanner;
 
 public class Beginning {
@@ -29,6 +30,9 @@ public class Beginning {
             Swap.outputSwapedArray();
         } else if (task == 4) {
             HolidayGift.makeHolidayGift();
+        } else if (task == 5) {
+            Collections.Sort.Homework6();
+
         } else {
             System.err.println("Enter valid");
             choseTask();
