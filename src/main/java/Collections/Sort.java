@@ -6,11 +6,11 @@ import java.util.TreeMap;
 
 public class Sort {
     public static void Homework6() {
-        FileInputStream file = new FileInputStream();
-        String text = "";
-        while (file.available() > 0) {
-            char ch = (char) file.read();
-            text = text + ch;
+        FileInputStream file;
+        try {
+            file= new FileInputStream("D:\\ForSort");
+        }catch (FileNotFoundException e){
+            e.printStackTrace();
         }
         file.close();
 //         Sort in alphabetical order and count how many times the word repeats in the text.
