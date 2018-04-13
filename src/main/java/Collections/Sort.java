@@ -8,7 +8,7 @@ public class Sort {
     public static void Homework6() {
         FileInputStream file;
         try {
-            file= new FileInputStream("D:\\ForSort");
+            file= new FileInputStream("D:\\ForSort.txt");
         }catch (FileNotFoundException e){
             e.printStackTrace();
         }
